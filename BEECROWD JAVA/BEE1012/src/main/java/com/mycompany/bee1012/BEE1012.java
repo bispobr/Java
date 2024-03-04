@@ -19,17 +19,14 @@ public class BEE1012 {
         float a = t.nextFloat();
         float b = t.nextFloat();
         float c = t.nextFloat();
-        System.out.println("");
         
         System.out.println("TRIANGULO: " + String.format("%.3f", (a * c)/2));
         System.out.println("CIRCULO: " + String.format("%.3f",3.14159 * Math.pow(c, 2) ));
         System.out.println("TRAPEZIO: " + String.format("%.3f",((a + b) / 2)*c  ));
         System.out.println("QUADRADO: " + String.format("%.3f",Math.pow(b, 2)));
         System.out.println("RETANGULO: " + String.format("%.3f",a * b ));
-        
-      
-      
-      t.close();
+     
+        t.close();
         
     }
 }
