@@ -21,7 +21,7 @@ public class BEE1020 {
         valor = valor % 30;
            
         System.out.println( ano +" ano(s)");
-        System.out.println( mes +" mes(s)");
+        System.out.println( mes +" mes(es)");
         System.out.println( valor +" dia(s)");
     }
 }
