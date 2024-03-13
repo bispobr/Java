@@ -11,4 +11,5 @@
         <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>com.mycompany.bee1039.BEE1039</exec.mainClass>
     </properties>
+    <name>BEE1040</name>
 </project>
