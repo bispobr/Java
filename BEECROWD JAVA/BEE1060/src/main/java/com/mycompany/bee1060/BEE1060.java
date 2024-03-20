@@ -23,6 +23,6 @@ public class BEE1060 {
                  cont+=1;
             }
         }
-        System.out.println(cont + "valores positivos");
+        System.out.println(cont + " valores positivos");
     }
 }
