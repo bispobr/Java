@@ -36,7 +36,7 @@ public class BEE1066 {
        
         System.out.println( par + " valor(es) par(es)");
         System.out.println( impar + " valor(es) impar(es)");
-        System.out.println(  pos + "valor(es) positivo(s)");
+        System.out.println(  pos + " valor(es) positivo(s)");
         System.out.println(  neg + " valor(es) negativo(s)");
        
        
