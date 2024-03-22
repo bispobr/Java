@@ -20,6 +20,6 @@ public class BEE1073 {
                 System.out.println(c + "^2 = " + String.format("%.0f", Math.pow(c, 2)) );
             }
         }
-        System.out.println("Hello World!");
+        
     }
 }
