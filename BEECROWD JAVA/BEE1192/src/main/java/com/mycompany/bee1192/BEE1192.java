@@ -15,7 +15,7 @@ public class BEE1192 {
     public static void main(String[] args) {
         Scanner t = new Scanner(System.in);
         int num = 5;
-        int n = t.nextInt();
+        
          for (int c = 0;c<num;c++){
              String frase = t.nextLine();
              int d1 = frase.charAt(0) - '0';
