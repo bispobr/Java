@@ -25,9 +25,5 @@ public class BEE1079 {
          float media = ((v1*2) + (v2 * 3) + (v3 *5))/10;
            System.out.println(String.format("%.1f", media));   
        }
-           
-       
-       
-               
     }
 }
