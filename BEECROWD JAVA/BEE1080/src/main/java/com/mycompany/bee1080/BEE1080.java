@@ -16,7 +16,7 @@ public class BEE1080 {
         Scanner t = new Scanner(System.in);
         int maior = 0;
         int pos = 0;
-        for (int c = 0;c<5;c++){
+        for (int c = 0;c<100;c++){
             int valor = t.nextInt();
             if (valor > maior){
                 maior = valor;
