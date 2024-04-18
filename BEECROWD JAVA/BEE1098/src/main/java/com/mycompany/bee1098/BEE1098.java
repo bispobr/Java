@@ -22,5 +22,6 @@ public class BEE1098 {
             for(int j = 10; j <= 30; j += 10){
                 System.out.printf("I=%s J=%s\n", format(i), format(j + i));
             }
-        }     }
+        }    
+    }
 }
