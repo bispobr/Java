@@ -8,6 +8,21 @@ package com.mycompany.formasgeometricas;
  *
  * @author bispo
  */
-public class Quadrado {
+public class Quadrado extends Retangulo {
+
+    public Quadrado(double lado1, double lado2) {
+        super(lado1, lado2);
+    }
+
+    @Override
+    public String toString() {
+        return "Quadrado{" + '}';
+    }
+    
+    
+    
+    
+
+    
     
 }
