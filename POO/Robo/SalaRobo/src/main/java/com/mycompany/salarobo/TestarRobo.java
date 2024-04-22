@@ -4,6 +4,8 @@
  */
 package com.mycompany.salarobo;
 
+import java.util.Scanner;
+
 /**
  *
  * @author bispo
