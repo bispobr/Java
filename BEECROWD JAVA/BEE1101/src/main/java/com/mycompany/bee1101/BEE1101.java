@@ -27,6 +27,7 @@ public class BEE1101 {
                 m=n;
                 n=aux;
             }
+            
             int soma = 0;
             for (int c = m; c <= n;c++){
                  System.out.printf("%d ", c);
