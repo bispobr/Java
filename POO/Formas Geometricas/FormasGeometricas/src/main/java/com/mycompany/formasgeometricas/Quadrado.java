@@ -10,13 +10,17 @@ package com.mycompany.formasgeometricas;
  */
 public class Quadrado extends Retangulo {
 
-    public Quadrado(double lado1, double lado2) {
-        super(lado1, lado2);
+    
+    //construtor
+    public Quadrado(String cor, double lado1, double lado2) {
+        super(cor, lado1, lado2);
     }
-
+    
+    //metodos
+    
     @Override
     public String toString() {
-        return "Quadrado{" + '}';
+        return "Quadrado{" +super.toString()+ '}';
     }
     
     

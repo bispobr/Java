@@ -11,10 +11,13 @@ package com.mycompany.formasgeometricas;
 public class Circulo  extends Figura{
     private double raio;
 
-    public Circulo(double raio) {
+    //construtor, getters , setters
+
+    public Circulo(String cor ,double raio) {
+        super(cor);
         this.raio = raio;
     }
-
+   
     public double getRaio() {
         return raio;
     }
@@ -23,18 +26,22 @@ public class Circulo  extends Figura{
         this.raio = raio;
     }
     
+    
+    // metodos
     public double area(){
         return 0; 
     }
     
     public double diametro(){
-        return 0;
+        return (this.raio * 3.14)*2;
     }
 
-    @Override
-    public String toString() {
-        return "Circulo{" + "raio=" + raio + '}';
+    public Circulo(double raio, String cor) {
+        super(cor);
+        this.raio = raio;
     }
+
+    
     
     
 }

@@ -8,11 +8,14 @@ package com.mycompany.formasgeometricas;
  *
  * @author bispo
  */
-public class Triangulo {
+public class Triangulo  extends Figura{
     private double base;
     private double altura;
 
-    public Triangulo(double base, double altura) {
+     //Construtor, getters e setters
+    
+    public Triangulo( String cor,double base, double altura) {
+        super(cor);
         this.base = base;
         this.altura = altura;
     }
@@ -33,8 +36,14 @@ public class Triangulo {
         this.altura = altura;
     }
     
-    public double area(){
-        return 0;
-    }
+    //metodos
     
+    public double area(){
+        return this.base * this.altura;
+    }
+
+    @Override
+    public String toString() {
+        return "Triangulo{"+super.toString() + "base=" + base + ", altura=" + altura + '}';
+    }
 }

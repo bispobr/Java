@@ -12,7 +12,9 @@ public class Retangulo extends Figura {
     private double lado1;
     private double lado2;
 
-    public Retangulo(double lado1, double lado2) {
+    //Construtor, getters e setters
+    public Retangulo(String cor,double lado1, double lado2) {
+        super(cor);
         this.lado1 = lado1;
         this.lado2 = lado2;
     }
@@ -33,14 +35,15 @@ public class Retangulo extends Figura {
         this.lado2 = lado2;
     }
     
+    // metodos
     public  double area(){
         
-        return 0;
+        return this.lado1 * this.lado2;
         
     }
 
     @Override
     public String toString() {
-        return "Retangulo{" + "lado1=" + lado1 + ", lado2=" + lado2 + '}';
+        return "Retangulo{"+ super.toString() + "lado1=" + this.lado1 + ", lado2=" + this.lado2 + '}';
     }
 }

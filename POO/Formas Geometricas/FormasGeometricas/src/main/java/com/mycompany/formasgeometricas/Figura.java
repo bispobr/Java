@@ -10,6 +10,12 @@ package com.mycompany.formasgeometricas;
  */
 public abstract class Figura {
     private String cor;
+
+     //Construtor, getters e setters
+    public Figura(String cor) {
+        this.cor = cor;
+    }
+    
     
     public String getCor() {
         return cor;
@@ -18,6 +24,15 @@ public abstract class Figura {
     public void setCor(String cor) {
         this.cor = cor;
     }
+
+    // metodos
+    @Override
+    public String toString() {
+        return "Figura{"+super.toString() + "cor=" + cor + '}';
+    }
+
+    
+    
 
     
     
