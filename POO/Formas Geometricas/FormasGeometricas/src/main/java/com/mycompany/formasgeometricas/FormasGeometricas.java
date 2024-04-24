@@ -16,6 +16,9 @@ public class FormasGeometricas {
         Circulo c1 = new Circulo ("Rosa",10.2);
         Retangulo r1 =  new Retangulo ("Vermelho",33,12);
         
+        q1.setCor("Preto");
+        q1.setLado1(3);
+        
         System.out.println("Quadrado");
         System.out.println(q1.toString());
         System.out.println("Area " +q1.area());
