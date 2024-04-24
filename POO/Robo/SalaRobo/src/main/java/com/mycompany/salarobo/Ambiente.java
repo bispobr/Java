@@ -12,12 +12,13 @@ public class Ambiente {
     private int  qtdLinhas;
     private int qtdColunas;
 
+    //construtor
     public Ambiente(int qtdLinhas, int qtdColunas) {
         this.qtdLinhas = qtdLinhas;
         this.qtdColunas = qtdColunas;
     }
 
-    
+    //gettes e setters
     public int getQtdLinhas() {
         return qtdLinhas;
     }

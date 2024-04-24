@@ -13,13 +13,14 @@ public class Robo {
     private int coluna;
     private Ambiente sala;
 
+    // construor
     public Robo(int linha, int coluna, Ambiente sala) {
         this.linha = linha;
         this.coluna = coluna;
         this.sala = sala;
     }
     
-    
+    // metodos
     public void MostrarPosicao(){
         
     }
