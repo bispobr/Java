@@ -8,10 +8,11 @@ package com.mycompany.veiculo;
  *
  * @author bispo
  */
-public class Onibus extends Veiculo {
+public class Onibus extends Veiculos {
     private int assentos;
 
-    public Onibus(int assentos) {
+    public Onibus(String placa, int ano,int assentos) {
+        super(placa,ano);
         this.assentos = assentos;
     }
 
@@ -23,9 +24,10 @@ public class Onibus extends Veiculo {
         this.assentos = assentos;
     }
 
+    //metodo
     
     public String exibirDados() {
-        return "Onibus{" + "assentos=" + assentos + '}';
+        return "Onibus{"+ super.exibirDados() + "assentos=" + assentos + '}';
     }
     
     

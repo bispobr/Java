@@ -12,11 +12,14 @@ public class Veiculos {
     private String placa;
     private int ano;
 
+    
+    //Construtor
     public Veiculos(String placa, int ano) {
         this.placa = placa;
         this.ano = ano;
     }
 
+    //getters e setters
     public String getPlaca() {
         return placa;
     }
@@ -32,11 +35,15 @@ public class Veiculos {
     public void setAno(int ano) {
         this.ano = ano;
     }
+    
+    //metodo
+    
+    public String exibirDados() {
+        return "Veiculos{" + "placa=" + placa + ", ano=" + ano + '}';
+    }
 
     
-    public String exibirdados() {
-        return "Veiculos{" + "placa=" + placa + '}';
-    }
+    
     
     
     

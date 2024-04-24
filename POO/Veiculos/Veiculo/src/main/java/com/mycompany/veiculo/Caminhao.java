@@ -8,12 +8,16 @@ package com.mycompany.veiculo;
  *
  * @author bispo
  */
-public class Caminhao extends Veiculo {
+public class Caminhao extends Veiculos {
     private int eixos;
 
-    public Caminhao(int eixos) {
+    // construtor
+    public Caminhao(String placa,int ano ,int eixos) {
+        super(placa,ano);
         this.eixos = eixos;
     }
+
+   //getters e setters
 
     public int getEixos() {
         return eixos;
@@ -23,10 +27,14 @@ public class Caminhao extends Veiculo {
         this.eixos = eixos;
     }
 
-    
-    public String exibirDados() {
-        return "Caminhao{" + "eixos=" + eixos + '}';
+    // metodo
+    @Override
+    public String toString() {
+        return "Caminhao{" + super.exibirDados() + "eixos=" + eixos + '}';
     }
+
+    
+    
 
     
     
