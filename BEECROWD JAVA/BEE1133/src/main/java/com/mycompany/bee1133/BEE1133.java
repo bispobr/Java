@@ -23,16 +23,10 @@ public class BEE1133 {
             y = aux;
         }
         
-       
-        
-        for (int c = x; c < y;c++){
+        for (int c = x+1; c < y;c++){
             if ((c % 5 == 2) || (c % 5 == 3)){
                 System.out.println(c);
             }
         }
-        
-        
-        
-        
     }
 }
