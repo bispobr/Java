@@ -55,13 +55,7 @@ public class BEE1118 {
                 } else if (x == 2){
                     break;
                 }
-                    
-                
-                
-                
-                
             }
-            
         }
         
     }
