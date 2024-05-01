@@ -20,7 +20,7 @@ public class Mavenproject1 {
           for (int d = inicio; d < inicio + 3; d++){
               System.out.print(d +" ");
           }
-          System.out.println("Pum");
+          System.out.println("PUM");
           inicio+=4;
       }
       
