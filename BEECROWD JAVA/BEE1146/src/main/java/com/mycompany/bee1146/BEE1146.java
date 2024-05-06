@@ -20,7 +20,7 @@ public class BEE1146 {
         while (x != 0){
              x = t.nextInt();
              for (int c = 1;c <= x;c++){
-                 System.out.print(c + " ");
+                  System.out.printf("%d ", c);
              }
         }
     }
