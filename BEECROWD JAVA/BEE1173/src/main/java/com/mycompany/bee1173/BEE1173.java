@@ -20,12 +20,10 @@ public class BEE1173 {
         
         for (int c = 0; c <=8;c++){
             n[c+1] = n[c] * 2;
-            
         }
         
         for (int d = 0; d<=9;d++){
             System.out.println("N["+d+"] = " +n[d]);
         }
-        
     }
 }
