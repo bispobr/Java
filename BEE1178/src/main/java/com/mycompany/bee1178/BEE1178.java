@@ -22,7 +22,6 @@ public class BEE1178 {
         
         for (int c = 0;c <99;c++){
             n[c+1] = n[c] / 2; 
-            //System.out.println("N["+c+"] = "+ n[c]);
             System.out.printf("N[%d] = %.4f\n", c, n[c]);
            
         }
