@@ -4,7 +4,6 @@
 
 package com.mycompany.bee1179;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
