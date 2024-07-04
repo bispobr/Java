@@ -16,9 +16,9 @@ public class BEE1174 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner t = new Scanner(System.in);
-        float a[] = new float [10];
+        float a[] = new float [100];
         
-        for (int c = 0;c<10;c++){
+        for (int c = 0;c<100;c++){
             a[c] = t.nextFloat();
             
             if (a[c] <= 10){
