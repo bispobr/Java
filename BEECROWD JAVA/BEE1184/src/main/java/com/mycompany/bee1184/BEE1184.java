@@ -16,14 +16,14 @@ public class BEE1184 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner t =  new Scanner(System.in);
-        double m [] [] = new double [4] [4];
+        double m [] [] = new double [12] [12];
         double soma=0;
         int cont = 0;
         
         char o = t.next().charAt(0);
         
-        for (int linha = 0;linha <4;linha++){
-            for (int coluna = 0;coluna <4;coluna++){
+        for (int linha = 0;linha <12;linha++){
+            for (int coluna = 0;coluna <12;coluna++){
                 m[linha][coluna] = t.nextDouble();
                 
                 if (linha > coluna){
@@ -38,6 +38,5 @@ public class BEE1184 {
         } else{
             System.out.printf("%.1f\n",soma/cont);
         }
-        System.out.printf("%.1f\n",soma/cont);
     }
 }
