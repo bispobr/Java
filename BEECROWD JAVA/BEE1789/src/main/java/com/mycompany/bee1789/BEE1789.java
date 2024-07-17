@@ -3,7 +3,9 @@
  */
 package com.mycompany.bee1789;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  *
@@ -11,29 +13,30 @@ import java.util.Scanner;
  */
 public class BEE1789 {
 
-    public static void main(String[] args) {
-        Scanner t = new Scanner(System.in);
-        int maior = 0;
+    public static void main(String[] args) throws IOException {
+       InputStreamReader ir = new InputStreamReader(System.in);
+        BufferedReader in = new BufferedReader(ir);
+    
+        while(in.ready()){
+            int N = Integer.parseInt(in.readLine());
 
-        while (t.hasNextLine()) {
-            int l = t.nextInt();
+            String[] entrada = in.readLine().trim().split(" ");
+            int maior = Integer.parseInt(entrada[0]);
+            for(int i = 1; i < N; ++i){
+                int numero = Integer.parseInt(entrada[i]);
 
-            for (int i = 0; i < l; i++) {
-                int valor = t.nextInt();
-
-                if (valor > maior) {
-                    maior = valor;
+                if(numero > maior){
+                    maior = numero;
                 }
             }
 
-            if (maior >= 20) {
-                System.out.println(3);
-            } else if (maior >= 10) {
-                System.out.println(2);
-            } else {
+            if(maior < 10){
                 System.out.println(1);
+            }else if(maior < 20){
+                System.out.println(2);
+            }else{
+                System.out.println(3);
             }
-             maior = 0;
         }
 
     }
