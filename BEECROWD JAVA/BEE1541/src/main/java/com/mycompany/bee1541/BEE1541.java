@@ -14,16 +14,19 @@ public class BEE1541 {
 
     public static void main(String[] args) {
         Scanner t = new Scanner(System.in);
-        int a = 1;
-        while(a != 0){
+        
+        while(true){
             
-            a = t.nextInt();
+            int a = t.nextInt();
+            
+            if (a == 0) {
+                break;
+            }
+            
             int b = t.nextInt();
             int c = t.nextInt();
             
-            System.out.println(a);
-            System.out.println(b);
-            System.out.println(c);
+             System.out.println(String.format("%.0f", Math.floor(Math.sqrt(a * b * 100.0 / c))));
         }
     }
 }
