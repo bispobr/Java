@@ -10,9 +10,7 @@ package com.mycompany.iphone;
  */
 public interface AparelhoTelefonico {
     
-    public String ligar (String numero);
+    public void  ligar (String numero);
     public void atender ();
-    public void encerrarLigacao();
     public void iniciarCorreioVoz();
-    public boolean favoritar (String numero) ;
 }

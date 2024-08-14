@@ -11,7 +11,7 @@ package com.mycompany.iphone;
 public interface NavegadorInternet {
     
     public void exibirPagina(String url);
-    public void adidionarpagina();
+    public void adicionarNovaAba();
     public void atualizarPagina();
     
 }
