@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Aula05" />
+        <module name="Domigo1" />
+        <module name="Aula06" />
+        <module name="Aula03" />
+        <module name="Aula14" />
+        <module name="Aula04" />
+        <module name="Aula02Exercicio01" />
+        <module name="Aula12" />
+        <module name="Aula02" />
+        <module name="Aula10" />
+        <module name="FormasGeometricas" />
+        <module name="Aula11" />
+        <module name="Veiculo" />
+        <module name="maven-archiver" />
+        <module name="docmento" />
+        <module name="Empregado" />
+        <module name="Empregados" />
+        <module name="Aula09" />
+        <module name="Animais" />
+        <module name="Aula07" />
+        <module name="Aula12 (1)" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
