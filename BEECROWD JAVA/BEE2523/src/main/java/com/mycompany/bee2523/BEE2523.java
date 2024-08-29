@@ -3,7 +3,9 @@
  */
 package com.mycompany.bee2523;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  *
@@ -11,16 +13,18 @@ import java.util.Scanner;
  */
 public class BEE2523 {
 
-    public static void main(String[] args) {
-        Scanner t = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        InputStreamReader ir = new InputStreamReader(System.in);
+        BufferedReader in = new BufferedReader(ir);
 
-        String Frase = t.nextLine();
-        
-        int valor = t.nextInt();
-
-        for (int i = 0; i < valor; i++) {
-            int letra = t.nextInt();
-            System.out.print(Frase.charAt(letra - 1));
+        while (in.ready()) {
+            String lampadas = in.readLine();
+            int N = Integer.parseInt(in.readLine());
+            String[] letras = in.readLine().trim().split(" ");
+            for (int i = 0; i < N; ++i) {
+                System.out.print(lampadas.charAt(Integer.parseInt(letras[i]) - 1));
+            }
+            System.out.println("");
         }
     }
 }
