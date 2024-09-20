@@ -35,7 +35,7 @@ public class BEE2663 {
         }
      
         for (int i = k; i < n; i++) {
-             if (competidor[i]== competidor[k]) {
+             if (competidor[i]== competidor[k - 1]) {
                 cont ++;
             }
         }
