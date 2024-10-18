@@ -4,6 +4,8 @@
 
 package com.mycompany.bee2058;
 
+import java.util.Scanner;
+
 /**
  *
  * @author bruno
@@ -11,6 +13,9 @@ package com.mycompany.bee2058;
 public class BEE2058 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner t = new Scanner(System.in);
+        
+        int n = t.nextInt();
+        System.out.println(n - 2);
     }
 }
