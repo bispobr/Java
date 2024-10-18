@@ -4,6 +4,8 @@
 
 package com.mycompany.bee2374;
 
+import java.util.Scanner;
+
 /**
  *
  * @author bruno
@@ -11,6 +13,10 @@ package com.mycompany.bee2374;
 public class BEE2374 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner t = new Scanner(System.in);
+        
+        int a = t.nextInt();
+        int b = t.nextInt();
+        System.out.println(a - b);
     }
 }
