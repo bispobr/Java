@@ -39,7 +39,7 @@ public class BEE2587 {
             int p1 = posicoes.get(0);
             int p2 = posicoes.get(1);
 
-            System.out.println((palavra1.charAt(p2) == palavra2.charAt(p1) || palavra1.charAt(p1) == palavra2.charAt(p2)) ? "Y" : " N");
+            System.out.println((palavra1.charAt(p2) == palavra2.charAt(p1) || palavra1.charAt(p1) == palavra2.charAt(p2)) ?"Y":"N");
         }
     }
 }
