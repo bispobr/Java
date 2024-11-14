@@ -9,10 +9,4 @@ A entrada do programa é fornecida em duas linhas:
 A primeira linha contém o limite mensal de dados em gigabytes (GB).
 A segunda linha contém o consumo total de dados móveis em megabytes (MB).
 
-## Saída
 
-Limite de dados excedido. Compre ou renove seu pacote.
-
-Voce ainda possui 5120 MB disponiveis.
-
-Voce ainda possui 1024 MB disponiveis.
